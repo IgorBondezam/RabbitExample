@@ -13,9 +13,6 @@ import java.sql.Array;
 @SpringBootApplication
 public class RabbitMqApplication {
 
-	private final static String QUEUE_NAME = "hello";
-
-
 	public static void main(String[] args) throws Exception {
 		SpringApplication.run(RabbitMqApplication.class, args);
 	}
